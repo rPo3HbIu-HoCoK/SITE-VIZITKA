@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Написать моей кошке</title>     
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+           <a href="index.html" id= "logo"> <span class="pink"> Сайт - визитка </span> <i> Сонечки</i></a>
+           <nav id="mainnav">
+            <ul>
+                <li><a href="uslugi.html">Услуги</a></li>
+                <li><a href="about_us.html">О нас</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+                <li><a href="clients.html">Клиенты</a></li>
+            </ul>  
+        </nav>     
+        </header>
+        <main class="Lobster">  
+        <form action="" id="contact_form">
+            <div class="form_item">
+                <label for="topic">Тема</label><br>
+                <select name="topic" id="topic">
+                    <option value="1">Заказать услугу котика</option>
+                    <option value="2">Оставить отзыв/замечание о котике</option>
+                    <option value="3">Предложить котикам сотрудничество</option>
+                    <option value="4">Другие котики</option>
+                </select>
+            </div>
+
+            <div class="form_item">
+                <label for="name">Имя:</label><br>
+                <input name="name" id="name" type="text" placeholder="Введите ваше имя" required>
+            </div>     
+
+            <div class="form_item">
+                <label for="name">E-Mail:</label><br>
+                <input name="name" id="name" type="email" placeholder="Ваше электронное мыло" required>
+            </div>
+            
+            <div>
+                <label for="name">Расскажите подробнее:</label><br>
+                <textarea name="name" id="name" autofocus placeholder="Максимально объемно расскажите о теме" required></textarea>
+            </div>
+
+            <div class="form_item">
+                <label for="name">Дата отправки сообщения:</label><br>
+                <input name="name" id="name" type="date" placeholder="Ваше электронное мыло" required>
+            </div>
+
+            <div class="form_item">
+                <label for="name">Ваш телефон:</label><br>
+                <input name="name" id="name" type="tel" placeholder="Чтобы связаться с вами :)" required>
+            </div>
+
+            <div class="form_item">
+                <input type="submit">
+            </div> 
+        </form>           
+        </main>
+    </div>
+    <footer>
+        <p class="footer_block"><a href="form.html" target="_blank">Написать котикам &#9650</a></p>
+        <p class="footer_block">&copy; Новая котокомпания</p>
+        <div class="footer_icons">
+            <a href="https://vk.com/danilka_3agpot" target= "_blank" ><img src="img/vk-social-logotype.png" alt="" class="footer_img"></a>
+            <a href="https://www.instagram.com/dyakonovdd32/" target= "_blank" ><img src="img/instagram.png" alt="" class="footer_img"></a>
+            <a href="https://www.tiktok.com/@danilka_3agpot?lang=ru-RU" target= "_blank" ><img src="img/туктук.png" alt="" class="footer_img"></a>
+        </div>
+    </footer>
+</body>
+</html>

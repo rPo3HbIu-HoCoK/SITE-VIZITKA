@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.h1--invisible {
+    visibility: hidden;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.services {
+    padding: 35px;
+}
+
+.services__item {
+    margin: 0px 40px;
+    width: 240px;
+    float: left;
+}
+
+.services__img {
+    width: 240px;
+    border-radius: 10px;
+}
+
+.punder{
+    color: pink;
+    text-decoration: none;
+}
+
+.punder:hover{
+    text-decoration: underline;
+}
+
+.main__img—float {
+    margin-right: 40px;
+    width: 550px;
+    float:left;
+    border-radius: 10px;
+}
+
+#wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+#panorama {
+    width: 100%;
+    height: 150px;
+    background: url(../img/minecraft-cat-7.jpg) no-repeat center 28%;
+    background-size: cover;
+}
+
+html, body {
+    height: 100%;
+}
+
+header, main, footer {
+    margin: 0 auto;
+    width: 1040px;
+}
+
+body {
+    background-color: MediumSlateBlue;
+    color: White;
+}
+
+header {
+    height: 120px;
+    width:1140px;
+    margin:0 auto; 
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+   }
+
+main {
+    padding-bottom: 100px;
+    font-family: 'Lobster', cursive, monospace ;
+}
+
+.font_heading{
+    font-family: 'Arial Narrow Bold', sans-serif, Haettenschweiler;
+}
+
+footer {
+    margin: -100px auto 0;
+    position: relative;
+    height: 100px;
+}
+
+.fig {
+    display: block;
+    margin: 0 auto;
+    min-height: 80%;
+    height: 80%;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.h1 {
+   text-align: center;
+}
+
+.p {
+   width: 663px;
+   margin:0 auto;
+   text-align: justify;
+}
+
+.post {   
+    margin:0 auto;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;   
+}
+
+.post1 {
+    margin:0 auto;
+    text-align: center;
+    color: springgreen;
+    font-size: 30px;
+}
+
+.post2 {
+    text-decoration: underline;
+    margin:0 auto;
+    text-align: center;
+}
+
+.kot_p {   
+    width: 300px;     
+}
+
+.kot_pt {
+    width: 300px;  
+    text-align: justify;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.kot_potato {
+    width: 300px;   
+    margin: 0 auto;
+}
+
+.kot_potato_t {
+    width: 300px;  
+    text-align: justify;
+    border-radius: 10px;
+}
+
+.kot_cool {
+    width: 300px;
+    margin-left: auto;
+}
+
+.kot_cool_t {
+    width: 300px;  
+    text-align: justify;
+    border-radius: 10px;
+}
+
+.h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+}
+ 
+.p2 {
+    width: 663px;
+    margin:0 auto;
+    text-align: justify;
+}
+
+.pos {    
+    margin: 85px;
+}
+
+#logo {
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#fff;
+    font-weight: bold;
+    line-height: 100px;
+    font-size: 24px;
+    float: left;
+}
+
+.pink {
+    color: pink;
+}
+
+.footer_block {
+    width: 335px;
+    display: inline-block;
+    font-style: italic;   
+}
+ 
+.footer_block a{
+    text-decoration: none;
+}
+
+.footer_bloc:nth-child(2) {
+    text-align: center;
+}
+
+.footer_icons {
+    width: 335px;
+    display: inline-block;
+    text-align: right;
+    margin-left: 10px;
+}
+
+.footer_img {
+    width: 50px;
+    margin-left: 10px;
+}
+
+.st {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.back {
+    background-color: rgb(20, 185, 103);
+}
+
+#mainnav ul{
+    list-style: none; /* убираем маркеры списка */
+    margin: 0;
+    padding-left: 0;
+}
+
+#mainnav li{
+    display: inline; /* выстраиваем пункты меню в ряд */    
+}
+
+#mainnav li.active a{
+    font-weight: bold;
+    background-color: blue;
+}
+
+#mainnav a{
+    text-decoration: none; /* убираем подчеркивание*/
+    margin-left: 50px;
+    color: white;
+    line-height: 100px;
+}
+
+#mainnav a:hover{
+    text-decoration: underline;
+}
+
+#mainnav{           
+    font-size: 30px;
+    font-family:  'Courier', monospace;    
+    text-transform: uppercase; 
+}
+
+.new::after{
+    content: "new";
+    font-size: 10px;
+    vertical-align: super;
+    background-color: violet;
+    border-radius: 2px;
+    padding: 3px;
+    margin-left: 5px;
+}
+
+/*------------------Оформление таблицЫ----------------------*/
+table{
+    border-top: 5px solid blue;   
+    border-collapse: collapse;
+}
+
+th{
+    border-bottom: 5px solid blue;
+}
+
+th, td{
+    border-top: 2px solid whitesmoke;   
+}
+
+.price tr:nth-child(2n){
+    background-color: rgb(7, 174, 252);
+}
+.price th:first-child{
+    width: 10%;
+    padding: 10px;
+}
+
+.price th:nth-child(2),.price th:nth-child(3), .price th:last-child{
+    width: 25%;
+    padding: 10px;
+}
+
+.price td:first-child,.price td:nth-child(2),.price td:last-child{
+    text-align: center;    
+    padding: 10px;
+}
+
+.price td:nth-child(3){
+    padding: 10px;
+}
+
+#contact_form input[type="text"]{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: whitesmoke solid 1px;
+    background-color: turquoise;
+}
+
+#contact_form input[type="email"]{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: whitesmoke solid 1px;
+    background-color: turquoise;
+}
+
+#contact_form input[type="date"]{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: whitesmoke solid 1px;
+    background-color: turquoise;
+}
+
+#contact_form input[type="tel"]{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: whitesmoke solid 1px;
+    background-color: turquoise;
+}
+
+#contact_form input[type="submit"]{
+    height: 30px;
+    width: 120px;
+    font-style: italic;
+    color: purple;
+    text-transform: uppercase;
+    margin-top: 10px;
+    border: whitesmoke solid 1px;
+    background-color: turquoise;
+}
+
+#contact_form input[type="submit"]:hover{
+    background-color: rgb(5, 255, 109);
+    color: rgb(0, 0, 0);
+}
+
+#contact_form select{
+    height: 28px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: whitesmoke solid 1px;
+    background-color: turquoise;
+}
+
+#contact_form textarea{
+    height: 100px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: whitesmoke solid 1px;
+    background-color: rgb(0, 255, 191);
+}
